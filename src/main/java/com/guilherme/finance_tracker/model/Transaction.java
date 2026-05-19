@@ -74,4 +74,8 @@ public class Transaction {
     public void setCategory(Category category) {
         this.category = category;
     }
+
+    public void setDate(LocalDate date) {
+
+    }
 }

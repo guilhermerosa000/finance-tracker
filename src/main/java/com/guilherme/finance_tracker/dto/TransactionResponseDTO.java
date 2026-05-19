@@ -34,6 +34,10 @@ public class TransactionResponseDTO {
         return amount;
     }
 
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
+
     public LocalDate getDate() {
         return date;
     }
@@ -52,5 +56,8 @@ public class TransactionResponseDTO {
 
     public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;
+    }
+
+    public void setType(TransactionType type) {
     }
 }

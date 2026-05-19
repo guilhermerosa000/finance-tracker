@@ -59,5 +59,6 @@ public class TransactionResponseDTO {
     }
 
     public void setType(TransactionType type) {
+
     }
 }
